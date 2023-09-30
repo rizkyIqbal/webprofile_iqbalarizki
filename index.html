@@ -6,57 +6,48 @@
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="asset/font/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
-<body>
-    <div class="Desktop1" style="width: 100%; height: 2500px; position: relative; background: white" id="home">
-        <div class="Navbar" style="
-            width: 100%; 
-            height: 125px; 
-            left: 0px; 
-            top: 0px; 
-            position: absolute; 
-            text-align: center; 
-            display: flex;
-            justify-content: center;
-            align-items: center;"
-            >
-            <a href="#home" class="Home" style="text-decoration: none; margin-right: 50px; color: black; font-size: 24px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Home</a>
-            <a href="#about" class="AboutMe" style="text-decoration: none;color: black; font-size: 24px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">About Me</a>
+<body style="margin: 0px;">
+    <div class="desktop" id="home">
+        <div class="topbar">
+            <a href="#home" class="homeNavbarText">Home</a>
+            <a href="#about" class="aboutNavbarText">About Me</a>
+            <a href="#project" class="projectNavbarText">Project</a>
         </div>
-        <div class="HeadSection" 
-            style="
-            width: 100%; 
-            height: 500px;  
-            top: 313px; 
-            position: relative;
-            display: flex;
-            justify-content: center;
-            ">
-            <div class="HeadText" style="width: 645px; height: 321px; ">
-                <div class="HeyThereIMIqbal" style="width: 645px; left: 0px; top: 0px; color: black; font-size: 84px; font-family: Montserrat; font-weight: 700; word-wrap: break-word">Hey There,<br/>I’m Iqbal</div>
-                <div class="ExperiencedFrontendDeveloperWithAPassionForCraftingSeamlessUserExperiences" style="width: 455px; padding-top: 30px; color: black; font-size: 24px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">Experienced Frontend Developer with a Passion for Crafting Seamless User Experiences</div>
+        <div class="headSection">
+            <div class="headText">
+                <div class="titleHead">Hey There,<br/>I’m Iqbal</div>
+                <div class="secondHead">Experienced Frontend Developer with a Passion for Crafting Seamless User Experiences</div>
                 <div style="padding-top: 30px;">
-                    <a style=" color: black; text-decoration: none;" href="https://www.linkedin.com/in/mochammad-iqbal-arizki-50b455249/">
+                    <a class="iconText" href="https://www.linkedin.com/in/mochammad-iqbal-arizki-50b455249/">
                         <i class="fa fa-linkedin-square fa-2x" style="padding-right: 10px;" aria-hidden="true" ></i>
                     </a>
-                    <a style=" color: black; text-decoration: none;" href="https://dribbble.com/Izkyy">
+                    <a class="iconText" href="https://dribbble.com/Izkyy">
                         <i class="fa fa-dribbble fa-2x" style="padding-right: 10px;" aria-hidden="true"></i>
                     </a>
-                    <a style=" color: black; text-decoration: none;" href="https://github.com/rizkyIqbal">
+                    <a class="iconText" href="https://github.com/rizkyIqbal">
                         <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
-            <img class="Img98841" style="width: 440px; height: 814px; left: 86px; top: -91px; position: relative" src="asset/img/IMG_9884.png" />
+            <img class="imgHead" src="asset/img/IMG_9884.png" />
         </div>
+
         <div style="width: 100%; top: 600px; position: relative;  display: flex;
-            justify-content: center;" id="about">
+            justify-content: center;">
             <div class="Group3" style="width: 346px; height: 100px; margin-right: 60px; position: relative">
                 <div class="Rectangle4" style="width: 346px; height: 80px; left: 0px; top: 0px; padding-top: 25px; position: relative; background: white; box-shadow: 0px 10px 30px -1px rgba(0, 0, 0, 0.13); border-radius: 30px">
                     <table>
                         <tr>
                             <td rowspan="2">
-                                <div class="Ellipse1" style="width: 50px; height: 50px; left: 27px;  position: relative; background: #4C4C4C; border-radius: 9999px"></div> 
+                                <div class="Ellipse1" style="width: 50px; height: 50px; left: 27px;  position: relative; background: #4C4C4C; border-radius: 9999px">
+                                    <div style="padding-top: 15px; padding-left: 15px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                                            <style>svg{fill:#ffffff}</style><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/>
+                                        </svg>
+                                    </div>
+                                </div> 
                             </td>
                             <td>
                                 <div class="AndroidApps" style="left: 52px;  position: relative; color: black; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Website Project</div>
@@ -75,7 +66,13 @@
                     <table>
                         <tr>
                             <td rowspan="2">
-                                <div class="Ellipse1" style="width: 50px; height: 50px; left: 27px;  position: relative; background: #4C4C4C; border-radius: 9999px"></div> 
+                                <div class="Ellipse1" style="width: 50px; height: 50px; left: 27px;  position: relative; background: #4C4C4C; border-radius: 9999px">
+                                    <div style="padding-top: 15px; padding-left: 19px;">
+                                        <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                                            <style>svg{fill:#ffffff}</style><path d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64H80V384H304V64z"/>
+                                        </svg>
+                                    </div>
+                                </div> 
                             </td>
                             <td>
                                 <div class="AndroidApps" style="left: 52px;  position: relative; color: black; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Android Apps</div>
@@ -91,45 +88,72 @@
               </div> 
         </div>
         
-        <div class="HeadSection" 
-            style="
-            width: 100%; 
-            height: 500px;  
-            top: 813px; 
-            position: relative;
-            display: flex;
-            justify-content: center;
+        <div id="about" class="aboutSection" 
+            style=" 
+            height: 950px;  
+            top: 713px; 
+            padding-top: 80px;
             ">
-            <div class="HeadText" style="width: 645px; height: 321px; ">
-                <div class="HeyThereIMIqbal" style="width: 645px; left: 0px; top: 0px; color: black; font-size: 84px; font-family: Montserrat; font-weight: 700; word-wrap: break-word">A bit more<br/>about me</div>
-                <div class="ExperiencedFrontendDeveloperWithAPassionForCraftingSeamlessUserExperiences" style="width: 455px; padding-top: 30px; color: black; font-size: 24px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">I am a frontend developer with a deep-rooted passion for creating exceptional user interfaces and immersive digital experiences. With five years of dedicated practice, I have honed my skills to not only meet but exceed the expectations of clients and users alike.</div>
-                <div class="ExperiencedFrontendDeveloperWithAPassionForCraftingSeamlessUserExperiences" style="width: 455px; padding-top: 30px; color: black; font-size: 24px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">I’m an Informatics Engineering Student too  at University of Muhammadiyah Malang, Indonesia. I'm currently exploring Vuejs with big interest in Front End Development. I'm constantly eager to learn and improve my skills and with my experience, I hope to be able to contribute to a company and project.</div>
+            <div style="width: 1100px; height: 321px;">
+                <div class="titleAbout">A bit more<br/>about me</div>
+                <div class="aboutText">I am a frontend developer with a deep-rooted passion for creating exceptional user interfaces and immersive digital experiences. With five years of dedicated practice, I have honed my skills to not only meet but exceed the expectations of clients and users alike.</div>
+                <div class="aboutText">I’m an Informatics Engineering Student too  at University of Muhammadiyah Malang, Indonesia. I'm currently exploring Vuejs with big interest in Front End Development. I'm constantly eager to learn and improve my skills and with my experience, I hope to be able to contribute to a company and project.</div>
             </div>
-            <img class="Img98841" style="width: 440px; height: 814px; left: 86px; top: -91px; position: relative" src="asset/img/IMG_9884.png" />
-
         </div>
 
-        <!-- <div class="SectionProject" style="width: 1116px; height: 165px; left: 162px; position: relative">
-          <div class="Rectangle3" style="width: 1116px; height: 165px; left: 0px; top: 0px; position: relative; background: white; border-radius: 50px"></div>
-          <div class="Group2" style="width: 346px; height: 100px; left: 167px; top: 33px; position: relative">
-            <div class="Rectangle4" style="width: 346px; height: 100px; left: 0px; top: 0px; position: relative; background: white; box-shadow: 0px 10px 30px -1px rgba(0, 0, 0, 0.13); border-radius: 30px"></div>
-            <div class="Ellipse1" style="width: 50px; height: 50px; left: 27px; top: 25px; position: relative; background: #4C4C4C; border-radius: 9999px"></div>
-            <div class="Website" style="left: 96px; top: 21px; position: relative; color: black; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Website</div>
-            <div class="Projects" style="left: 96px; top: 54px; position: relative; color: black; font-size: 14px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">12 Projects</div>
-            <div class="Vector" style="width: 26px; height: 26px; left: 39px; top: 37px; position: relative; background: white"></div>
-          </div>
-          <div class="Group3" style="width: 346px; height: 100px; left: 604px; top: 33px; position: relative">
-            <div class="Rectangle4" style="width: 346px; height: 100px; left: 0px; top: 0px; position: relative; background: white; box-shadow: 0px 10px 30px -1px rgba(0, 0, 0, 0.13); border-radius: 30px"></div>
-            <div class="Ellipse1" style="width: 50px; height: 50px; left: 27px; top: 25px; position: relative; background: #4C4C4C; border-radius: 9999px"></div>
-            <div class="AndroidApps" style="left: 96px; top: 21px; position: relative; color: black; font-size: 24px; font-family: Montserrat; font-weight: 600; word-wrap: break-word">Android Apps</div>
-            <div class="Projects" style="left: 96px; top: 54px; position: relative; color: black; font-size: 14px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">4 Projects</div>
-            <div class="Vector" style="width: 18px; height: 29px; left: 43px; top: 35px; position: relative; background: white"></div>
-          </div> -->
-        <!-- </div> -->
-        <!-- <div class="AboutSection" style="width: 1116px; height: 466px; left: 162px; top: 1237px; position: absolute">
-          <div class="IAmAFrontendDeveloperWithADeepRootedPassionForCreatingExceptionalUserInterfacesAndImmersiveDigitalExperiencesWithFiveYearsOfDedicatedPracticeIHaveHonedMySkillsToNotOnlyMeetButExceedTheExpectationsOfClientsAndUsersAlikeIMAnInformaticsEngineeringStudentTooAtUniversityOfMuhammadiyahMalangIndonesiaIMCurrentlyExploringVuejsWithBigInterestInFrontEndDevelopmentIMConstantlyEagerToLearnAndImproveMySkillsAndWithMyExperienceIHopeToBeAbleToContributeToACompanyAndProject" style="width: 1116px; left: 0px; top: 234px; position: absolute; color: black; font-size: 24px; font-family: Montserrat; font-weight: 400; word-wrap: break-word">I am a frontend developer with a deep-rooted passion for creating exceptional user interfaces and immersive digital experiences. With five years of dedicated practice, I have honed my skills to not only meet but exceed the expectations of clients and users alike.<br/><br/>I’m an Informatics Engineering Student too  at University of Muhammadiyah Malang, Indonesia. I'm currently exploring Vuejs with big interest in Front End Development. I'm constantly eager to learn and improve my skills and with my experience, I hope to be able to contribute to a company and project.</div>
-          <div class="ABitMoreAboutMe" style="width: 645px; left: 2px; top: 0px; position: absolute; color: black; font-size: 84px; font-family: Montserrat; font-weight: 700; word-wrap: break-word">A bit more about me</div>
-        </div> -->
+        <div id="project" class="projectSection" 
+            style=" 
+            width: 100%;
+            height: 950px;  
+            top: 813px; 
+            ">
+            <div style="width: 1100px; height: 321px;">
+                <div class="titleHead">Personal<br> Project</div>
+                   <table style="width: 100%; margin-top: 25px; height: 700px;">
+                        <tr>
+                            <td class="tdProject">
+                                <img src="asset/img/project1.png" alt="Jacket Lab" style="width: 300px; height: auto;">
+                                <p class="projectTitle">Jacketlab Order</p>
+                                <p class="projectStack">Fullstack</p>
+                            </td>
+                            <td class="tdProject">
+                                <img src="asset/img/project2.png" alt="Jacket Lab" style="width: 340px; height: auto;">
+                                <p class="projectTitle">Aduan</p>
+                                <p class="projectStack">Fullstack</p>
+                            </td>
+                            <td class="tdProject">
+                                <img src="asset/img/employeemockup.jpg" alt="Jacket Lab" style="width: 280px; height: auto;">
+                                <p class="projectTitle">Monitoring Employee</p>
+                                <p class="projectStack">Frontend</p>
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <td class="tdProject">
+                                <img src="asset/img/asdfasdfa.png" alt="Jacket Lab" style="width: 300px; height: auto;">
+                                <p class="projectTitle">Builder App</p>
+                                <p class="projectStack">UI/UX</p>
+                            </td>
+                            <td class="tdProject">
+                                <img src="asset/img/projectUI.png" alt="Jacket Lab" style="width: 260px; height: auto;">
+                                <p class="projectTitle">DrinksCommerce</p>
+                                <p class="projectStack">UI/UX</p>
+                            </td>
+                            <td class="tdProject">
+                                <div style="display: flex; justify-content: center; ;">
+                                    <img src="asset/img/projectFilm.png" alt="Jacket Lab" style="width: 100px; height: auto;">
+                                    <img src="asset/img/projectFilm2.png" alt="Jacket Lab" style="width: 122px; height: auto;">
+                                </div>
+                                <div style="padding-top: 20px;">
+                                    <p class="projectTitle">NontonYuk</p>
+                                    <p class="projectStack">Frontend</p>
+                                </div>
+                            </td>
+                        </tr>
+                   </table>
+                </div>
+            </div>
+
     </div>
 </body>
 </html>
